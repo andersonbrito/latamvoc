@@ -20,8 +20,8 @@ if __name__ == '__main__':
     remove = args.remove
     outfile = args.output
 
-    # path = '/Users/anderson/GLab Dropbox/Anderson Brito/projects/ncov/ncov_variants/nextstrain/ncov_20210219_testipipeline/'
-    # genomes = path + "pre-analyses/gisaid_hcov-19_short.fasta"
+    # path = '/Users/anderson/GLab Dropbox/Anderson Brito/github/latamvoc/'
+    # genomes = path + "pre-analyses/gisaid_hcov-19.fasta"
     # new_genomes = path + "pre-analyses/new_genomes.fasta"
     # keep = path + 'config/keep.txt'
     # remove = path + "config/remove.txt"
@@ -45,8 +45,7 @@ if __name__ == '__main__':
             id = id.strip()
             if id not in newly_sequenced:
                 if id not in keep_sequences:
-                    if 'Yale-' not in id: # change this line to match you lab's unique identifier
-                        keep_sequences.append(id)
+                    keep_sequences.append(id)
 
 
     # create a list of sequences to be ignored in all instances
