@@ -45,6 +45,7 @@ if __name__ == '__main__':
             id = id.strip()
             if id not in newly_sequenced:
                 if id not in keep_sequences:
+                    print(id)
                     keep_sequences.append(id)
 
 

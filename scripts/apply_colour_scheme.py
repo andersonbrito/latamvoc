@@ -440,39 +440,13 @@ if __name__ == '__main__':
                     geoLevels[id] = members
 
 
-    # colour_scale = {'magenta': [320], 'purple': [310, 300, 290, 280, 270, 260],
-    #                 'blue': [250, 240, 230, 220], 'cyan': [210, 200, 190, 180], 'turquoise': [170, 160, 150],
-    #                 'green': [140, 130, 120], 'yellowgreen': [110, 100, 90, 80, 70],
-    #                 'yellow': [60, 50, 40], 'orange': [30, 20], 'red': [10, 0]}
-    #
-    # continent_hues = {'Oceania': colour_scale['magenta'], 'Asia': colour_scale['purple'],
-    #                   'Europe': colour_scale['blue'] + colour_scale['cyan'], 'Africa': colour_scale['yellowgreen'],
-    #                   'America': colour_scale['yellow'] + colour_scale['orange'] + colour_scale['red']}
-    #
-
-
-    categories = {'Other region': '#CCCCCC', 'Europe': '#666666',
+    categories = {'Other region': '#FFFFFF', 'North America': '#ABABAB', 'Europe': '#666666',
                   'Northern South America': '#1f3d7a', 'Western South America': '#7a1f1f', 'Southern South America': '#5cadd6',
-                  'Central America': '#6c7a1f', 'Caribbean': '#2eb8a1', 'North America': '#FFFFFF', 'Mexico': '#7a4d1f',
+                  'Central America': '#6c7a1f', 'Caribbean': '#2eb8a1', 'Mexico': '#7a4d1f',
                   'Brazil-North': '#1f7a2e', 'Brazil-Northeast': '#b8732e', 'Brazil-Center West': '#d65cad',
                   'Brazil-Southeast': '#4c1f7a', 'Brazil-South': '#d6c25c'
                   }
     results['subregion'] = {}
-    # usregion_hues = {
-    #     'USA-Northeast': colour_scale['purple'][3],
-    #     'USA-Midwest': colour_scale['green'][0],
-    #     'USA-Southwest': colour_scale['yellow'][1],
-    #     'USA-Southeast': colour_scale['cyan'][0],
-    #     'USA-West': colour_scale['red'][0]
-    #     }
-
-    # for us_region, hue in usregion_hues.items():
-    #     start, end = hue_to_hex[hue]
-    #     divisions = geoLevels[us_region]
-    #     gradient = linear_gradient(start, end, len(divisions))
-    #     # print(us_region, hue, divisions, gradient)
-    #     for state, colour in zip(divisions, gradient):
-    #         categories[state] = colour
 
     for reg, hex in categories.items():
         results['subregion'].update({reg: hex})

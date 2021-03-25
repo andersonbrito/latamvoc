@@ -1,19 +1,24 @@
 {
-  "title": "Yale SARS-CoV-2 Genome Surveillance Initiative",
-  "build_url": "https://github.com/grubaughlab/CT-SARS-CoV-2",
+  "title": "Genome Surveillance of variants circulating in Latin America",
+  "build_url": "https://github.com/andersonbrito/latamvoc",
   "maintainers": [
-    {"name": "Chaney Kalinich and Anderson Brito (Grubaugh Lab)",
+    {"name": "Anderson Brito (Grubaugh Lab)",
      "url": "https://grubaughlab.com/"}
   ],
   "colorings": [
     {
-      "key": "pangolin_lineage",
+      "key": "pango_lineage",
       "title": "Lineage",
       "type": "categorical"
     },
     {
       "key": "region",
       "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "subregion",
+      "title": "LatAm Subregion",
       "type": "categorical"
     },
     {
@@ -35,16 +40,6 @@
       "key": "author",
       "title": "Authors",
       "type": "categorical"
-    },
-    {
-      "key": "update",
-      "title": "Update",
-      "type": "categorical"
-    },
-    {
-      "key": "variants",
-      "title": "Variants",
-      "type": "categorical"
     }
   ],
   "geo_resolutions": [
@@ -54,19 +49,18 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "division",
-    "distance_measure": "div",
+    "color_by": "subregion",
+    "distance_measure": "num_date",
     "geo_resolution": "location",
     "map_triplicate": true,
     "branch_label": "clade"
   },
   "filters": [
-    "update",
-    "variants",
-    "pangolin_lineage",
+    "pango_lineage",
     "location",
     "division",
     "country",
+    "subregion",
     "region",
     "author",
     "originating_lab",

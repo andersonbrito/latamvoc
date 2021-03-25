@@ -306,7 +306,7 @@ rule refine:
 			--timetree \
 			--coalescent {params.coalescent} \
 			--date-confidence \
-			--clock-filter 4 \
+			--clock-filter 3 \
 			--clock-rate {params.clock_rate} \
 			--clock-std-dev {params.clock_std_dev} \
 			--divergence-units {params.unit} \
@@ -365,7 +365,7 @@ rule traits:
 	output:
 		node_data = "results/traits.json",
 	params:
-		columns = "region"
+		columns = "country subregion"
 	shell:
 		"""
 		augur traits \

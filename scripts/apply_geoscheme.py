@@ -85,6 +85,19 @@ if __name__ == '__main__':
 
     # convert sets of locations into sub-locations
     print('\nApplying geo-schemes...')
+    custom_geolevels = {}
+    for line in scheme_list:
+        if not line.startswith('\n'):
+            line = line.strip()
+            id = line.split('\t')[2]
+            type = line.split('\t')[0]
+            members = line.split('\t')[5].split(',')  # elements inside the subarea
+
+            if type == 'subregion':
+                for country in members:
+                    country = country.strip()
+                    custom_geolevels[country] = id
+
     dfN.fillna('', inplace=True)
     for idx, row in dfN.iterrows():
         country = dfN.loc[idx, 'country']
@@ -104,25 +117,26 @@ if __name__ == '__main__':
 
         if region in ['Central America', 'South America', 'Caribbean'] and dfN.loc[idx, 'subregion'] == '':
             if country == 'Brazil':
-                if division in geoLevels.keys():
-                    dfN.loc[idx, 'subregion'] = geoLevels[division]
+                if division in custom_geolevels.keys():
+                    dfN.loc[idx, 'subregion'] = custom_geolevels[division]
                 else:
-                    dfN.loc[idx, 'subregion'] = 'Unknown'
+                    dfN.loc[idx, 'subregion'] = 'Other region'
                     print('\t- ' + division + ' not found in geoscheme.')
             else:
-                if country in geoLevels.keys():
-                    dfN.loc[idx, 'subregion'] = geoLevels[country]
+                if country in custom_geolevels.keys():
+                    dfN.loc[idx, 'subregion'] = custom_geolevels[country]
                 else:
-                    dfN.loc[idx, 'subregion'] = 'Unknown'
+                    dfN.loc[idx, 'subregion'] = 'Other region'
                     print('\t- ' + country + ' not found in geoscheme.')
         print(dfN.loc[idx, 'subregion'], country, division)
 
-        # divide country into subnational regions
-        division = dfN.loc[idx, 'division']
-        if division not in ['', 'unknown']:
-            if division in geoLevels.keys():
-                dfN.loc[idx, 'country'] = geoLevels[dfN.loc[idx, 'country']]
+        # # divide country into subnational regions
+        # division = dfN.loc[idx, 'division']
+        # if division not in ['', 'unknown']:
+        #     if division in custom_geolevels.keys():
+        #         dfN.loc[idx, 'country'] = custom_geolevels[dfN.loc[idx, 'country']]
 
+    print(custom_geolevels)
 
     dfN = dfN.drop_duplicates(subset=['strain'])
     dfN.to_csv(output, sep='\t', index=False)
