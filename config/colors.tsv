@@ -1,0 +1,673 @@
+region_exposure	Oceania	#E073CE
+region_exposure	Eastern Asia	#8F29A3
+region_exposure	Southeastern Asia	#AD61D1
+region_exposure	Western Asia	#CC99FF
+region_exposure	Northern Europe	#2929A3
+region_exposure	Western Europe	#4E5FC1
+region_exposure	Eastern Europe	#7395E0
+region_exposure	Southern Europe	#99CCFF
+region_exposure	Northern Africa	#66A329
+region_exposure	Western Africa	#EEFF99
+region_exposure	Central America	#A34B29
+region_exposure	South America	#A37E29
+region_exposure	Caribbean	#A33A29
+region_exposure	North America	#A32929
+
+country_exposure	Australia	#A3298F
+country_exposure	New Zealand	#FF99EE
+country_exposure	China	#8F29A3
+country_exposure	South Korea	#BE61D1
+country_exposure	Japan	#EE99FF
+country_exposure	Indonesia	#7A29A3
+country_exposure	Singapore	#9245BA
+country_exposure	Thailand	#AB61D1
+country_exposure	Malaysia	#C47DE8
+country_exposure	Philippines	#DD99FF
+country_exposure	Qatar	#6629A3
+country_exposure	Jordan	#884EC1
+country_exposure	Israel	#AA73E0
+country_exposure	Turkey	#CC99FF
+country_exposure	United Kingdom	#2929A3
+country_exposure	Ireland	#3F3FB5
+country_exposure	Denmark	#5555C7
+country_exposure	Sweden	#6C6CDA
+country_exposure	Finland	#8282EC
+country_exposure	Norway	#9999FF
+country_exposure	Austria	#293DA3
+country_exposure	Switzerland	#394CB0
+country_exposure	Luxembourg	#495CBD
+country_exposure	France	#596BCA
+country_exposure	Belgium	#697BD7
+country_exposure	Netherlands	#798AE4
+country_exposure	Sint Maarten	#899AF1
+country_exposure	Germany	#99AAFF
+country_exposure	Romania	#2952A3
+country_exposure	Czech Republic	#4E75C1
+country_exposure	Russia	#7398E0
+country_exposure	Poland	#99BBFF
+country_exposure	Portugal	#2966A3
+country_exposure	Spain	#3F7AB5
+country_exposure	Greece	#558EC7
+country_exposure	Italy	#6CA3DA
+country_exposure	Croatia	#82B7EC
+country_exposure	Slovenia	#99CCFF
+country_exposure	Egypt	#AAE073
+country_exposure	Ghana	#CEE073
+country_exposure	Mexico	#A38F29
+country_exposure	Panama	#D1BE61
+country_exposure	Costa Rica	#FFEE99
+country_exposure	Brazil	#A37A29
+country_exposure	Paraguay	#B08839
+country_exposure	Chile	#BD9649
+country_exposure	Uruguay	#CAA459
+country_exposure	Argentina	#D7B269
+country_exposure	Peru	#E4C079
+country_exposure	Colombia	#F1CE89
+country_exposure	Suriname	#FFDD99
+country_exposure	Aruba	#E0AA73
+country_exposure	USA	#A32929
+country_exposure	Canada	#663300
+
+division_exposure	Australia	#A3298F
+division_exposure	Western Australia	#BA45A6
+division_exposure	New South Wales	#D161BE
+division_exposure	Victoria	#E87DD6
+division_exposure	Canterbury	#FF99EE
+division_exposure	South Korea	#8F29A3
+division_exposure	Japan	#EE99FF
+division_exposure	East Java	#7A29A3
+division_exposure	Singapore	#8A3BB2
+division_exposure	Malaysia	#9B4EC1
+division_exposure	Calabarzon	#AB61D1
+division_exposure	Soccsksargen	#BC73E0
+division_exposure	Philippines	#CC86EF
+division_exposure	Western Visayas	#DD99FF
+division_exposure	Qatar	#6629A3
+division_exposure	Amman	#7F45BA
+division_exposure	Israel	#9961D1
+division_exposure	Istanbul	#B27DE8
+division_exposure	Turkey	#CC99FF
+division_exposure	United Kingdom	#2929A3
+division_exposure	England	#2F2FA8
+division_exposure	Wales	#3535AD
+division_exposure	Scotland	#3B3BB2
+division_exposure	Waterford	#4141B7
+division_exposure	Limerick	#4848BC
+division_exposure	Galway	#4E4EC1
+division_exposure	Cork	#5454C6
+division_exposure	Dublin	#5A5ACB
+division_exposure	Kildare	#6161D1
+division_exposure	Denmark	#6767D6
+division_exposure	Hovedstaden	#6D6DDB
+division_exposure	Skane	#7373E0
+division_exposure	Ostergotland	#7979E5
+division_exposure	Uusimaa	#8080EA
+division_exposure	Viken	#8686EF
+division_exposure	Oslo	#8C8CF4
+division_exposure	Trondelag	#9292F9
+division_exposure	Norway	#9999FF
+division_exposure	Vienna	#293DA3
+division_exposure	Valais	#2B3FA4
+division_exposure	Geneva	#2D41A6
+division_exposure	Vaud	#2F43A8
+division_exposure	Switzerland	#3145AA
+division_exposure	Bern	#3347AB
+division_exposure	Basel-Stadt	#3549AD
+division_exposure	Luxembourg	#384BAF
+division_exposure	Occitanie	#3A4DB1
+division_exposure	Nouvelle-Aquitaine	#3C4FB2
+division_exposure	Centre-Val de Loire	#3E51B4
+division_exposure	Pays de la Loire	#4054B6
+division_exposure	Bretagne	#4256B8
+division_exposure	Ile de France	#4558BA
+division_exposure	France	#475ABB
+division_exposure	French Guiana	#495CBD
+division_exposure	Hauts de France	#4B5EBF
+division_exposure	Philippeville	#4D60C1
+division_exposure	Belgium	#4F62C2
+division_exposure	Namur	#5164C4
+division_exposure	Wallonia	#5466C6
+division_exposure	Charleroi	#5669C8
+division_exposure	Hainaut	#586BC9
+division_exposure	Brabant Wallon	#5A6DCB
+division_exposure	Oudenaarde	#5C6FCD
+division_exposure	Brussels	#5E71CF
+division_exposure	Vlaams-Brabant	#6173D1
+division_exposure	Leuven	#6375D2
+division_exposure	Roeselare	#6577D4
+division_exposure	Dendermonde	#6779D6
+division_exposure	Gent	#697BD8
+division_exposure	Mechelen	#6B7DD9
+division_exposure	Hasselt	#6D80DB
+division_exposure	Turnhout	#7082DD
+division_exposure	Antwerpen	#7284DF
+division_exposure	Limburg	#7486E0
+division_exposure	Netherlands	#7688E2
+division_exposure	Zeeland	#788AE4
+division_exposure	North Brabant	#7A8CE6
+division_exposure	South Holland	#7D8EE8
+division_exposure	Gelderland	#7F90E9
+division_exposure	Utrecht	#8192EB
+division_exposure	Overijssel	#8395ED
+division_exposure	Drenthe	#8597EF
+division_exposure	North Holland	#8799F0
+division_exposure	Groningen	#899BF2
+division_exposure	Sint Maarten	#8C9DF4
+division_exposure	Bavaria	#8E9FF6
+division_exposure	Hesse	#90A1F7
+division_exposure	Niedersachsen	#92A3F9
+division_exposure	Saxony	#94A5FB
+division_exposure	Schleswig-Holstein	#96A7FD
+division_exposure	Germany	#99AAFF
+division_exposure	Bucharest	#2952A3
+division_exposure	Chelyabinsk	#6186D1
+division_exposure	Sverdlovsk	#99BBFF
+division_exposure	Portugal	#2966A3
+division_exposure	Canary Islands	#306CA8
+division_exposure	Murcia	#3772AE
+division_exposure	Catalunya	#3E79B4
+division_exposure	Basque Country	#457FBA
+division_exposure	Asturias	#4C85BF
+division_exposure	Madrid	#538CC5
+division_exposure	Athens	#5A92CB
+division_exposure	Campania	#6199D1
+division_exposure	Lazio	#689FD6
+division_exposure	Abruzzo	#6FA5DC
+division_exposure	Tuscany	#76ACE2
+division_exposure	Emilia-Romagna	#7DB2E8
+division_exposure	Italy	#84B8ED
+division_exposure	Veneto	#8BBFF3
+division_exposure	Lombardy	#92C5F9
+division_exposure	Zagreb	#99CCFF
+division_exposure	Egypt	#99D161
+division_exposure	Ghana	#BED161
+division_exposure	Puebla	#A38F29
+division_exposure	Veracruz	#AD9935
+division_exposure	Mexico City	#B7A441
+division_exposure	Quintana Roo	#C1AE4E
+division_exposure	Jalisco	#CBB95A
+division_exposure	Nuevo Leon	#D6C367
+division_exposure	Chihuahua	#E0CE73
+division_exposure	Panama Center	#EAD880
+division_exposure	Heredia	#F4E38C
+division_exposure	Alajuela	#FFEE99
+division_exposure	Brazil	#A37A29
+division_exposure	Sergipe	#A57C2C
+division_exposure	Tocantins	#A77F2F
+division_exposure	Rondonia	#AA8232
+division_exposure	Mato Grosso	#AC8435
+division_exposure	Bahia	#AF8738
+division_exposure	Distrito Federal	#B18A3B
+division_exposure	Minas Gerais	#B48C3E
+division_exposure	Espirito Santo	#B68F41
+division_exposure	Mato Grosso do Sul	#B99244
+division_exposure	Rio de Janeiro	#BB9447
+division_exposure	Santa Catarina	#BE974A
+division_exposure	Rio Grande do Sul	#C09A4D
+division_exposure	Amazonas BR	#C39C50
+division_exposure	Para	#C59F53
+division_exposure	Rio Grande do Norte	#C8A256
+division_exposure	Paraiba	#CAA459
+division_exposure	Piaui	#CDA75C
+division_exposure	Pernambuco	#CFAA5F
+division_exposure	Alagoas	#D2AC62
+division_exposure	Amapa	#D4AF65
+division_exposure	Roraima	#D7B268
+division_exposure	Paraguay	#D9B46B
+division_exposure	Valparaiso	#DCB76E
+division_exposure	Region Metropolitana de Santiago	#DEBA71
+division_exposure	Maule	#E1BC74
+division_exposure	Los Lagos	#E3BF77
+division_exposure	Artigas	#E6C27A
+division_exposure	Rivera	#E8C47D
+division_exposure	Santa Fe	#EBC780
+division_exposure	Buenos Aires	#EDCA83
+division_exposure	Argentina	#F0CC86
+division_exposure	Lima	#F2CF89
+division_exposure	Loreto	#F5D28C
+division_exposure	Huanuco	#F7D48F
+division_exposure	Quindio	#FAD792
+division_exposure	Bogota	#FCDA95
+division_exposure	Suriname	#FFDD99
+division_exposure	Aruba	#D19961
+division_exposure	Virgin Islands	#A32929
+division_exposure	Puerto Rico	#A42B2B
+division_exposure	Hawaii	#A62D2D
+division_exposure	Florida	#A83030
+division_exposure	Texas	#AA3232
+division_exposure	Georgia	#AC3434
+division_exposure	Mississippi	#AE3737
+division_exposure	Alabama	#B03939
+division_exposure	South Carolina	#B23C3C
+division_exposure	Arizona	#B43E3E
+division_exposure	New Mexico	#B64040
+division_exposure	Oklahoma	#B84343
+division_exposure	North Carolina	#BA4545
+division_exposure	Tennessee	#BC4747
+division_exposure	California	#BE4A4A
+division_exposure	Virginia	#C04C4C
+division_exposure	Kentucky	#C24F4F
+division_exposure	West Virginia	#C45151
+division_exposure	Colorado	#C65353
+division_exposure	Missouri	#C85656
+division_exposure	Washington	#CA5858
+division_exposure	Washington DC	#CC5B5B
+division_exposure	Utah	#CE5D5D
+division_exposure	Nevada	#D05F5F
+division_exposure	Maryland	#D16262
+division_exposure	Indiana	#D36464
+division_exposure	New Jersey	#D56666
+division_exposure	Illinois	#D76969
+division_exposure	Ohio	#D96B6B
+division_exposure	New York	#19AE77
+division_exposure	Pennsylvania	#DD7070
+division_exposure	Connecticut	#8FEECB
+division_exposure	Nebraska	#E17575
+division_exposure	Rhode Island	#E37777
+division_exposure	Massachusetts	#E57A7A
+division_exposure	New Hampshire	#E77C7C
+division_exposure	Michigan	#E97E7E
+division_exposure	Oregon	#EB8181
+division_exposure	Wisconsin	#ED8383
+division_exposure	Vermont	#EF8585
+division_exposure	Maine	#F18888
+division_exposure	Minnesota	#F38A8A
+division_exposure	Alaska	#F58D8D
+division_exposure	Nova Scotia	#F78F8F
+division_exposure	New Brunswick	#F99191
+division_exposure	Ontario	#FB9494
+division_exposure	Quebec	#FD9696
+division_exposure	British Columbia	#FF9999
+
+location	Sydney	#D161BE
+location	Sidoarjo	#AB61D1
+location	Santa Barbara de Goias	#6161D1
+location	Vienna	#293DA3
+location	Basel	#2A3EA4
+location	Montpellier	#2C3FA5
+location	Anglet	#2D41A6
+location	Casteljaloux	#2F42A8
+location	Puilboreau	#3044A9
+location	Mehun sur Yevre	#3245AA
+location	Tours	#3347AB
+location	La Roche-sur-Yon	#3548AD
+location	Saint Herblain	#364AAE
+location	Saumur	#384BAF
+location	Angers	#394DB0
+location	Vannes	#3B4EB2
+location	Essonne	#3C50B3
+location	Paris	#3E51B4
+location	Neuilly sur Seine	#4053B5
+location	Levallois-Perret	#4154B7
+location	Saint Ouen l'Aumone	#4356B8
+location	Pontoise	#4457B9
+location	Cayenne GF	#4659BA
+location	Bethune	#475ABC
+location	Lille FR	#495CBD
+location	Walcourt	#4A5DBE
+location	Gilly	#4C5FBF
+location	Courcelles	#4D60C1
+location	Gosselies	#4F62C2
+location	Fleurus	#5063C3
+location	Brakel	#5265C5
+location	Watermael-Boitsfort	#5366C6
+location	Uccle	#5568C7
+location	Forest	#5769C8
+location	Auderghem	#586BCA
+location	Saint-Gilles BE	#5A6CCB
+location	Ixelles	#5B6ECC
+location	Etterbeek	#5D6FCD
+location	Woluwe-Saint-Pierre	#5E71CF
+location	Anderlecht	#6072D0
+location	Woluwe-Saint-Lambert	#6174D1
+location	Bruxelles	#6375D2
+location	Saint-Josse-ten-Noode	#6477D4
+location	Schaerbeek	#6678D5
+location	Evere	#677AD6
+location	Jette	#697BD7
+location	Laken	#6A7DD9
+location	Vossem	#6C7EDA
+location	Bunsbeek	#6E80DB
+location	Aarschot	#6F81DC
+location	Ledegem	#7183DE
+location	Lebbeke	#7284DF
+location	Putte	#7486E0
+location	Sint-Katelijne-Waver	#7587E2
+location	Koningshooikt	#7789E3
+location	Gingelom	#788AE4
+location	Herk-de-Stad	#7A8CE5
+location	Heusden-Zolder	#7B8DE7
+location	Herselt	#7D8FE8
+location	Eindhout	#7E90E9
+location	Meerhout	#8092EA
+location	Oevel	#8193EC
+location	Geel	#8395ED
+location	Mol	#8596EE
+location	Meer	#8698EF
+location	Boom	#8899F1
+location	Niel	#899BF2
+location	Aartselaar	#8B9CF3
+location	Borsbeek	#8C9EF4
+location	Berchem	#8E9FF6
+location	Ranst	#8FA1F7
+location	Burcht	#91A2F8
+location	Deurne	#92A4F9
+location	Borgerhout	#94A5FB
+location	Wijnegem	#95A7FC
+location	Merksem	#97A8FD
+location	's-Gravenwezel	#99AAFF
+location	Ozyorsk	#2952A3
+location	Verkhnyaya Pyshma	#99BBFF
+location	Manaus	#B78F41
+location	Santa Brigida	#306CA9
+location	Las Palmas de Gran Canaria	#3773AF
+location	Santa Maria de Guia de Gran Canaria	#3F7AB5
+location	Badalona	#4681BB
+location	Montornes del Valles	#4E88C1
+location	Figueres	#558EC7
+location	Donostia-San Sebastian	#5D95CD
+location	Madrid	#649CD4
+location	Naples	#6CA3DA
+location	Rome	#73AAE0
+location	Padova	#7BB0E6
+location	Venezia	#82B7EC
+location	Vicenza	#8ABEF2
+location	Varese	#91C5F8
+location	Zagreb	#99CCFF
+location	Puerto Vallarta	#A38F29
+location	Zapopan	#BAA645
+location	Victoriano Lorenzo	#D1BE61
+location	Flores	#E8D67D
+location	Alajuela	#FFEE99
+location	La Plata	#A37A29
+location	Marseille	#A37A29
+location	Cluses	#A37A29
+location	Barra Dos Coqueiros	#A47B2A
+location	Aracaju	#A47B2A
+location	Palmas	#A47C2B
+location	Gurupi	#A57C2B
+location	Formoso do Araguaia	#A57C2C
+location	Sandolandia	#A67D2C
+location	Araguatins	#A67D2D
+location	Araguaina	#A67E2D
+location	Presidente Kennedy	#A77E2E
+location	Guarai	#A77F2E
+location	Sao Miguel do Guapore	#A87F2F
+location	Porto Velho	#A87F2F
+location	Cuiaba	#A88030
+location	Salvador	#A98030
+location	Marau	#A98131
+location	Itacare	#A98131
+location	Itapitanga	#AA8131
+location	Itajuipe	#AA8232
+location	Ilheus	#AB8232
+location	Itabuna	#AB8333
+location	Floresta Azul	#AB8333
+location	Buerarema	#AC8434
+location	Cordeiros	#AC8434
+location	Jussari	#AD8435
+location	Camacan	#AD8535
+location	Pau Brasil	#AD8536
+location	Planaltina	#AE8636
+location	Brasilia	#AE8637
+location	Montes Claros	#AF8637
+location	Aracuai	#AF8738
+location	Paracatu	#AF8738
+location	Coromandel	#B08839
+location	Governador Valadares	#B08839
+location	Monte Alegre de Minas	#B0893A
+location	Confins	#B1893A
+location	Esmeraldas BR	#B1893A
+location	Bom Despacho	#B28A3B
+location	Uberaba	#B28A3B
+location	Sabara	#B28B3C
+location	Belo Horizonte	#B38B3C
+location	Betim	#B38B3D
+location	Divinopolis	#B48C3D
+location	Ouro Branco	#B48C3E
+location	Guape	#B48D3E
+location	Muriae	#B58D3F
+location	Desterro do Melo	#B58E3F
+location	Alfenas	#B68E40
+location	Alem do Paraiba	#B68E40
+location	Ibitiura de Minas	#B68F41
+location	Rochedo	#B79042
+location	Vila Pavao	#B79042
+location	Vila Valerio	#B89042
+location	Sao Gabriel Da Palha	#B89143
+location	Governador Lindenberg	#B99143
+location	Baixo Guandu	#B99244
+location	Aracruz	#B99244
+location	Santa Maria de Jetiba	#BA9345
+location	Serra	#BA9345
+location	Cariacica	#BB9346
+location	Vitoria	#BB9446
+location	Irupi	#BB9447
+location	Guarapari	#BC9547
+location	Cachoeiro de Itapemirim	#BC9548
+location	Sonora	#BD9548
+location	Ladario	#BD9649
+location	Camapua	#BD9649
+location	Selviria	#BE974A
+location	Agua Clara	#BE974A
+location	Campo Grande	#BE984B
+location	Aquidauana	#BF984B
+location	Anastacio	#BF984B
+location	Tres Lagoas	#C0994C
+location	Bonito	#C0994C
+location	Nova Alvorada do Sul	#C09A4D
+location	Jardim	#C19A4D
+location	Guia Lopes Da Laguna	#C19B4E
+location	Maracaju	#C29B4E
+location	Dourados	#C29B4F
+location	Nova Andradina	#C29C4F
+location	Ponta Pora	#C39C50
+location	Laguna Carapa	#C39D50
+location	Navirai	#C39D51
+location	Amambai	#C49D51
+location	Itaquirai	#C49E52
+location	Iguatemi	#C59E52
+location	Rondonopolis	#C59F53
+location	Sete Quedas	#C59F53
+location	Bom Jesus do Itabapoana	#C6A054
+location	Itaperuna	#C6A054
+location	Miracema	#C7A054
+location	Paraiba do Sul	#C7A155
+location	Porto Real	#C7A155
+location	Resende	#C8A256
+location	Petropolis	#C8A256
+location	Mage	#C9A257
+location	Rio Claro RJ	#C9A357
+location	Rio Bonito	#C9A358
+location	Nova Iguacu	#CAA458
+location	Belford Roxo	#CAA459
+location	Duque de Caxias	#CAA559
+location	Cabo Frio	#CBA55A
+location	Niteroi	#CBA55A
+location	Rio de Janeiro	#CCA65B
+location	Joinville	#CCA65B
+location	Sao Jose	#CCA75C
+location	Florianopolis	#CDA75C
+location	Palhoca	#CDA75C
+location	Lages	#CEA85D
+location	Balneario Arroio do Silva	#CEA85D
+location	Porto Xavier	#CEA95E
+location	Sertao	#CFA95E
+location	Passo Fundo	#CFAA5F
+location	Santo Angelo	#D0AA5F
+location	Ijui	#D0AA60
+location	Sao Borja	#D0AB60
+location	Espumoso	#D1AB61
+location	Caxias do Sul	#D1AC61
+location	Estrela Velha	#D1AC62
+location	Nova Brescia	#D2AC62
+location	Farroupilha	#D2AD63
+location	Garibaldi	#D3AD63
+location	Carlos Barbosa	#D3AE64
+location	Barao	#D3AE64
+location	Alto Feliz	#D4AF65
+location	Gramado	#D4AF65
+location	Lajeado	#D5AF65
+location	Linha Nova	#D5B066
+location	Tupandi	#D5B066
+location	Morro Reuter	#D6B167
+location	Igrejinha	#D6B167
+location	Sao Sebastiao do Cai	#D7B168
+location	Santa Rosa BR	#D7B268
+location	Parobe	#D7B269
+location	Sapiranga	#D8B369
+location	Riozinho	#D8B36A
+location	Santa Maria RS	#D8B46A
+location	Taquara	#D9B46B
+location	Rolante	#D9B46B
+location	Candelaria	#DAB56C
+location	Campo Bom	#DAB56C
+location	Montenegro	#DAB66D
+location	Novo Hamburgo	#DBB66D
+location	Novo Cabrais	#DBB66D
+location	Taquari	#DCB76E
+location	Xangri-la	#DCB76E
+location	Sapucaia do Sul	#DCB86F
+location	Santo Antonio Da Patrulha	#DDB86F
+location	Nova Santa Rita	#DDB970
+location	Esteio	#DEB970
+location	Glorinha	#DEB971
+location	Osorio	#DEBA71
+location	Canoas BR	#DFBA72
+location	Triunfo	#DFBB72
+location	Tramandai	#DFBB73
+location	Porto Alegre	#E0BC73
+location	Viamao	#E0BC74
+location	Guaiba	#E1BC74
+location	Butia	#E1BD75
+location	Balneario Pinhal	#E1BD75
+location	Santana do Livramento	#E2BE76
+location	Lavras do Sul	#E2BE76
+location	Pelotas	#E3BE76
+location	Rio Grande BR	#E3BF77
+location	Presidente Figueiredo	#E3BF77
+location	Nova Holinda	#E4C078
+location	Rio Preto Da Eva	#E4C078
+location	Curitiba	#E4C179
+location	Iranduba	#E5C179
+location	Manacapuru	#E5C17A
+location	Caapiranga	#E6C27A
+location	Manaquiri	#E6C27B
+location	Autazes	#E6C37B
+location	Anori	#E7C37C
+location	Careiro	#E7C37C
+location	Tabatinga	#E8C47D
+location	Carauari	#E8C47D
+location	Tapaua	#E8C57E
+location	Labrea	#E9C57E
+location	Maceio	#E9C67F
+location	Belem do Para	#EAC67F
+location	Natal	#EAC67F
+location	Sao Jose do Brejo do Cruz	#EAC780
+location	Sossego	#EBC780
+location	Rio Tinto	#EBC881
+location	Areia	#EBC881
+location	Cabedelo	#ECC882
+location	Alagoa Grande	#ECC982
+location	Sape	#EDC983
+location	Joao Pessoa	#EDCA83
+location	Bayeux	#EDCA84
+location	Campina Grande	#EECB84
+location	Conde	#EECB85
+location	Inga	#EFCB85
+location	Itabaiana	#EFCC86
+location	Queimadas	#EFCC86
+location	Monteiro	#F0CD87
+location	Itapetim	#F0CD87
+location	Araripina	#F1CD87
+location	Carpina	#F1CE88
+location	Paulista	#F1CE88
+location	Olinda	#F2CF89
+location	Recife	#F2CF89
+location	Cha Grande	#F2D08A
+location	Caruaru	#F3D08A
+location	Arcoverde	#F3D08B
+location	Sao Bento do Una	#F4D18B
+location	Petrolandia	#F4D18C
+location	Valparaiso CL	#F4D28C
+location	Limache	#F5D28D
+location	Huechuraba	#F5D28D
+location	Independencia	#F6D38E
+location	Pudahuel	#F6D38E
+location	Las Condes	#F6D48F
+location	Santiago	#F7D48F
+location	La Granja	#F7D590
+location	San Ramon CL	#F8D590
+location	La Pintana	#F8D590
+location	San Bernardo	#F8D691
+location	Puente Alto	#F9D691
+location	San Jose de Maipo	#F9D792
+location	Talagante	#F9D792
+location	Melipilla	#FAD793
+location	Molina	#FAD893
+location	Talca	#FBD894
+location	San Clemente CL	#FBD994
+location	Puerto Montt	#FBD995
+location	Bella Union	#FCDA95
+location	Rueda	#FCDA96
+location	Almirante Brown	#FDDA96
+location	La Matanza	#FDDB97
+location	Avellaneda	#FDDB97
+location	Quilmes	#FEDC98
+location	Lomas de Zamora	#FEDC98
+location	Berazategui	#FFDD99
+location	Honolulu County	#A32929
+location	Houston	#A42B2B
+location	El Paso County	#A62D2D
+location	Tarrant County	#A82F2F
+location	Madison County AL	#AA3131
+location	Hampton County	#AB3333
+location	Pima County	#AD3535
+location	Yuma County	#AF3838
+location	Maricopa County	#B13A3A
+location	San Diego	#B23C3C
+location	Los Angeles County	#B43E3E
+location	Santa Clara County	#B64040
+location	San Francisco County	#B84242
+location	Contra Costa County	#BA4545
+location	King County	#BB4747
+location	Clark County NV	#BD4949
+location	Washoe County	#BF4B4B
+location	Lake County IN	#C14D4D
+location	Cook County	#C24F4F
+location	Dupage County	#C45151
+location	Chicago	#C65454
+location	Lake County IL	#C85656
+location	Columbus OH	#C95858
+location	Kings County NY	#CB5A5A
+location	Brooklyn	#CD5C5C
+location	Queens County	#CF5E5E
+location	Nassau County	#D16161
+location	New York County	#D26363
+location	Manhattan	#D46565
+location	Bronx County	#D66767
+location	Suffolk County	#D86969
+location	Westchester County	#D96B6B
+location	Dutchess County	#DB6D6D
+location	Ulster County	#DD7070
+location	Greene County NY	#DF7272
+location	New York City	#E07474
+location	Erie County	#E27676
+location	Onondaga County	#E47878
+location	Monroe County NY	#E67A7A
+location	Lane County OR	#E87D7D
+location	Umatilla County	#E97F7F
+location	Washington County OR	#EB8181
+location	Waukesha County	#ED8383
+location	Jefferson County WI	#EF8585
+location	Milwaukee County	#F08787
+location	Marquette County	#F28989
+location	Dane County	#F48C8C
+location	La Crosse County	#F68E8E
+location	Wood County WI	#F79090
+location	Marathon County	#F99292
+location	Southwest Alaska	#FB9494
+location	Anchorage and Matanuska-Susitna	#FD9696
+location	Toronto	#FF9999
+
+

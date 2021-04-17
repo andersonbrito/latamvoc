@@ -117,7 +117,7 @@ rule coordinates:
 		geoscheme = files.geoscheme,
 		cache = files.cache
 	params:
-		columns = "region country division location"
+		columns = "region_exposure country_exposure division_exposure location"
 	output:
 		latlongs = "config/latlongs.tsv"
 	shell:
@@ -143,7 +143,7 @@ rule colours:
 		geoscheme = files.geoscheme,
 		colour_grid = files.colour_grid
 	params:
-		columns = "region country division location"
+		columns = "region_exposure country_exposure division_exposure location"
 	output:
 		colours = "config/colors.tsv"
 	shell:
@@ -288,7 +288,7 @@ rule refine:
 		tree = "results/tree.nwk",
 		node_data = "results/branch_lengths.json"
 	params:
-		root = "Wuhan/Hu-1/2019 Wuhan/WH01/2019",
+		root = "Brazil/MG-LBI03/2021",
 		coalescent = "skyline",
 		clock_rate = 0.0008,
 		clock_std_dev = 0.0004,
@@ -365,7 +365,7 @@ rule traits:
 	output:
 		node_data = "results/traits.json",
 	params:
-		columns = "country subregion"
+		columns = "country_exposure subregion"
 	shell:
 		"""
 		augur traits \

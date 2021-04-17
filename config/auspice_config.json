@@ -12,7 +12,7 @@
       "type": "categorical"
     },
     {
-      "key": "region",
+      "key": "region_exposure",
       "title": "Region",
       "type": "categorical"
     },
@@ -22,12 +22,12 @@
       "type": "categorical"
     },
     {
-      "key": "country",
+      "key": "country_exposure",
       "title": "Country",
       "type": "categorical"
     },
     {
-      "key": "division",
+      "key": "division_exposure",
       "title": "Division",
       "type": "categorical"
     },
@@ -51,17 +51,17 @@
   "display_defaults": {
     "color_by": "subregion",
     "distance_measure": "num_date",
-    "geo_resolution": "location",
+    "geo_resolution": "division",
     "map_triplicate": true,
     "branch_label": "clade"
   },
   "filters": [
     "pango_lineage",
     "location",
-    "division",
-    "country",
+    "division_exposure",
+    "country_exposure",
     "subregion",
-    "region",
+    "region_exposure",
     "author",
     "originating_lab",
     "submitting_lab"

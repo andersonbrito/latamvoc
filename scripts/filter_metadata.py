@@ -208,22 +208,16 @@ if __name__ == '__main__':
             strain = dfL.loc[idx, 'country'] + '/' + code + '-' + dfL.loc[idx, 'id'] + '/' + collection_date.split('-')[
                 0]  # set the strain name
             dict_row['strain'] = strain
-            dict_row['iso'] = get_iso(dict_row['country'])
+            dict_row['iso'] = get_iso(dict_row['country_exposure'])
             dict_row['submitting_lab'] = 'Grubaugh Lab - Yale School of Public Health'
             dict_row['authors'] = 'Fauver et al'
 
             # add lineage
             lineage = ''
-            if dfL.loc[idx, 'pangolin_lineage'] != '':
-                lineage = dfL.loc[idx, 'pangolin_lineage']
-            dict_row['pangolin_lineage'] = lineage
+            if dfL.loc[idx, 'pango_lineage'] != '':
+                lineage = dfL.loc[idx, 'pango_lineage']
+            dict_row['pango_lineage'] = lineage
 
-            if dfL.loc[idx, 'update'] == 'variant':
-                dict_row['variants'] = get_epiweeks(collection_date)
-                dict_row['update'] = ''
-            else:
-                dict_row['update'] = 'Update' + str('0' * (2 - len(dfL.loc[idx, 'update']))) + dfL.loc[idx, 'update']
-                dict_row['variants'] = ''
             found.append(strain)
             lab_label[id] = strain
 
@@ -249,13 +243,13 @@ if __name__ == '__main__':
                 if dict_row[level_exposure] in ['', None]:
                     dict_row[level_exposure] = dict_row[level]
 
-            dict_row['iso'] = get_iso(dict_row['country'])
+            dict_row['iso'] = get_iso(dict_row['country_exposure'])
             found.append(strain)
 
             outputDF = outputDF.append(dict_row, ignore_index=True)
 
     # write new metadata files
-    outputDF = outputDF.drop(columns=['region'])
+    outputDF = outputDF.drop(columns=['region', 'region_exposure'])
     outputDF.to_csv(output1, sep='\t', index=False)
 
     # write sequence file
